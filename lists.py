@@ -14,3 +14,5 @@ print(list3)
 list1 = ["abc", 34, True, 40, "male"]
 print(list1)
 
+list1 = ["apple", "banana", "cherry"]
+print(len(list1))   
