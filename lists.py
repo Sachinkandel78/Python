@@ -16,3 +16,8 @@ print(list1)
 
 list1 = ["apple", "banana", "cherry"]
 print(len(list1))   
+
+
+thislist = ["apple", "banana", "cherry"]
+thislist[1:2] = ["blackcurrant", "watermelon"]
+print(thislist)
