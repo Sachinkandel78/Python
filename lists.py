@@ -36,4 +36,5 @@ list.append("orange")
 list.insert(1, "orange")
 list.remove("banana")
 list.pop(1)
+list.clear()
 # we are going to learn about lists in Python. Lists are used to store multiple items in a single variable. They are one of the most versatile data types in Python and can hold items of different data types, including strings, integers, and even other lists.
