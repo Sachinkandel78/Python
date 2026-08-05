@@ -45,4 +45,4 @@ list.insert(1, "orange")
 list.remove("banana")
 list.pop(1)
 list.clear()
-list = ["apple", "banana", "cherry"]
+list = ["apple", "bana", "cherry"]
