@@ -1,48 +1,35 @@
-thislist = ["apple", "banana", "cherry"]
+#So today we started to learn about lists in Python. Lists are a type of data structure that can hold multiple items in a single variable. They are ordered, changeable, and allow duplicate values.
+
+#Example of a list:
+mylist = ["apple","banana", "cherry"]
+print(mylist)
+# output will be ['apple','banana', 'cherry']
+
+#List allow duplicate values hai
+thislist = ["apple","banana","cherry","apple", "cherry"]
 print(thislist)
+#o/p = ['apple', 'banana', 'cherry', 'apple', 'cherry']
 
-thislist = ["apple", "banana", "cherry"]
-print(thislist[-1])
+# list length
+print(len(thislist))
+#o/p = 5
 
-list1 = ["apple", "banana", "cherry"]
-list2 = [1, 5, 7, 9, 3] 
+#list items-Data types 
+#Example: string,int & boolean data types 
+list1 = ["apple","banana", "cherry"]
+list2 = [1,5,7,8,10,18,20]
 list3 = [True, False, False]
 print(list1)
 print(list2)
 print(list3)
+# o/p will be ['apple', 'banana', 'cherry']
+#[1, 5, 7, 8, 10, 18, 20]
+#[True, False, False]
 
-list1 = ["abc", 34, True, 40, "male"]
-print(list1)
-
-list1 = ["apple", "banana", "cherry"]
-print(len(list1))   
-
-
-thislist = ["apple", "banana", "cherry"]
-thislist[1:2] = ["blackcurrant", "watermelon"]
-print(thislist)
-
-thislist = ["apple", "banana", "cherry"]
-thislist[1:2] = ["blackcurrant", "watermelon"]
-print(thislist)
-
-thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
-thislist[1:3] = ["blackcurrant", "watermelon"]
-print(thislist)
-
-
-list = ["apple", "banana", "cherry"]
-list.append("orange")
-list.insert(1, "orange")
-list.remove("banana")
-list.pop(1)
-list.clear()
-list = ["apple", "banana", "cherry"]
-# we are going to learn about lists in Python. Lists are used to store multiple items in a single variable. They are one of the most versatile data types in Python and can hold items of different data types, including strings, integers, and even other lists.
-list = ["apple", "banana", "cherry"]
-list.append("orange")
-list.insert(1, "orange")
-list.remove("banana")
-list.pop(1)
-list.clear()
-list = ["apple", "bana", "cherry"]
+#Example: A list with strings,integers and boolean values every type in one list
+list5 = ["sachin",2307300,"PokharaUni",True,18]
+print(list5)
+#o/p will be = ['sachin', 2307300, 'PokharaUni', True, 18]
+#type of variable list5 
+print(type(list5))
+# yo variable list5 vanni chai list datatype ko raixa o/p = <class 'list'>
