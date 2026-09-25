@@ -28,4 +28,4 @@ print(thislist)
 thislist=["apple","banana","cherry"]
 thislist.insert(2,"watermelon")# index 2 ma watermelon vanney item hala(insert)gara
 print(thislist)
-#Output will be ['apple', 'banana', 'watermelon', 'cherry']
+#Output will be ['apple', 'banana', 'watermelon', 'cherry']s
